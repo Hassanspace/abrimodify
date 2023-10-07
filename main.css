@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Figtree', sans-serif;
+}
+
+nav {
+   
+    display: flex;
+    height: 100px;
+    box-shadow: 0px 5px 11px 4px rgba(255, 252, 49, 0.404);
+}
+
+nav div {
+    display: flex;
+    height: 70px;
+
+}
+#countdown{
+    display: flex;
+    margin-top: 30px;
+   
+}
+#countdown span{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#countdown h1{
+    margin-top: -30px;
+    font-size: 30px;
+}
+
+.logo img {
+    margin-top: -10px;
+    border-radius: 50%;
+    margin-left: -40px;
+    overflow: hidden;
+}
+
+.logo h3 {
+    margin-top: -30px;
+
+    font-weight: lighter;
+}
+
+.logo h1 {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo h3,
+h1 {
+
+    margin-left: -50px;
+}
+
+#details {
+    transition: 0.3s ease;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: -60%;
+    height: 600px;
+    width: 0px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 4px 11px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+#details h1 {
+    line-height: 80px;
+    color: rgb(54, 51, 51);
+    margin-left: 60px;
+}
+#details select{
+    width: 50px;
+    margin-left: 60px;
+    
+}
+
+#details h3 {
+    font-size: 3rem;
+    margin-left: 130px;
+}
+
+#icon {
+    padding: 30px;
+    margin-left: 70px;
+}
+
+.space {
+
+    height: 70px;
+   
+}
+
+.coin {
+    margin-top: -70px;
+    height: 40px;
+    line-height: 20px;
+    padding: 70px;
+    
+}
+
+.line {
+    height: 3px;
+    margin-left: -50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 70px;
+   background-color: rgb(0, 204, 255);
+}
+
+.info {
+    font-family: 'Figtree', sans-serif;
+    margin-top: -10px;
+    padding: 30px;
+   font-weight: 300;
+    margin-left: -150px;
+    line-height: 30px;
+    font-size: 1rem;
+    color: rgba(20, 20, 20, 0.726);
+}
+
+.abri {
+    font-family: 'Figtree', sans-serif;
+    word-spacing: -20px;
+    color: rgb(0, 204, 255);
+}
+
+.block {
+    font-family: 'Figtree', sans-serif;
+
+}
+
+.button button {
+    height: 30px;
+    width: 200px;
+    margin-top: -20px;
+    box-shadow: 0px 4px 26px 11px rgba(32, 187, 192, 0.418);
+    margin-left: 20px;
+    padding: 25px;
+    background: rgb(0, 180, 242);
+    background: radial-gradient(circle, rgba(0, 180, 242, 1) 0%, rgba(8, 249, 161, 1) 55%, rgba(0, 215, 255, 1) 100%);
+    border-radius: 25px;
+    border: none;
+}
+.button h1{
+    font-family: 'Figtree', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: -10px;
+    margin-left: 5px;
+    color: white;
+}
+.install{
+    display: flex;
+    padding: 20px;
+}
+.install h1{
+    color: rgb(102, 98, 98);
+    font-family: 'Figtree', sans-serif;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+#time{
+    display: flex;
+}
+.value{
+    font-family: 'Figtree', sans-serif;
+   margin: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    height: 450px;
+}
+.time h1{
+   margin-left: 60px;
+   padding: 30px;
+   font-size: 1.5rem;
+}
+.days{
+    padding: 10px;
+    margin-left: 15px;
+}
+.days h1{
+    margin-left: 15px;
+}
+.range{
+   
+   word-spacing: 50px;
+}
+.rangelimit{
+   
+    width: 310px;
+    margin-left: 25px;
+    background-color: rgba(128, 128, 128, 0.555);
+    height: 15px;
+    border-radius: 20px;
+}
+.rangevalue{
+    
+    width: 100px;
+    margin-top: -15px;
+    margin-left: 25px;
+    background-color: rgb(25, 179, 199);
+    height: 15px;
+    box-shadow: 0px 4px 26px 11px rgba(18, 214, 214, 0.151);
+    border-radius: 20px 0px 0px 20px;
+}
+.cap{
+    display: flex;
+    padding: 10px;
+    font-weight: lighter;
+}
+.softcap{
+margin-left: 15px;
+}
+.hardcap{
+margin-left: 200px;
+}
+#line{
+    height: 1px;
+    background-color: rgba(71, 67, 67, 0.829);
+}
+.price{
+    display: flex;
+    margin-left: -190px;
+    margin-top: 30px;
+}
+pre{
+    font-size: 15px;
+}
+.value button{
+    margin-left: 15px;
+    margin-top: -3px;
+}
+.abridetail{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.description{
+    margin-left: -50px;
+    text-align: justify;
+    line-height: 50px;
+    font-weight: lighter;
+
+}
+.description h3{
+    line-height: 50px;
+    font-weight: 100;
+}
+.description li{
+    
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.description li::marker{
+    content: '✔️';
+}
+.investors{
+    margin-left: 70px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.big , .small{
+  
+    margin-top: 30px;
+    margin-left: -60px;
+    text-align: justify;
+}
+.big{
+    font-size: 15px;
+    text-wrap: wrap;
+}
+.small{
+    font-size: 10px;
+}
+.imagesample{
+    padding: 20px;
+    margin-left: -100px;
+}
+.mining{
+    margin-left: 140px;
+}
+.mining img{
+    margin-top: 30px;
+    margin-left: -80px;
+}
+.mine{
+    margin-left: 40px;
+}
+.finance{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.disc{
+    margin-top: 30px;
+    text-align: justify;
+}
+.disc h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+ .h3{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.howstart{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.howstart img{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.distribution{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.information{
+    color: rgb(66, 64, 64);
+}
+.copyright{
+ background-color: #e5f9f0;
+ margin-top: -20px;
+ padding: 20px;
+}
+/* Base styles for all screen sizes */
+body {
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    box-shadow: 0px 5px 11px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: -10px;
+    border-radius: 50%;
+    margin-left: -40px;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+}
+
+.logo h3 {
+    margin-top: -30px;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.logo h1 {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+/* Media query for tablet screens */
+@media screen and (max-width: 758px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo  img{
+        height: 180px;
+        width: 200px;
+       
+    }
+    .logo{
+        margin: 20px 0px;
+        margin-left: -30px;
+       
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #details {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #details h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #details select {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .button button {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 425px){
+#countdown h1{
+    font-size: 20px;
+}
+}
+
+
+
+
+@media screen and (min-width: 758px) and (max-width: 1440px) {
+
+    .value {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        margin: 15px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        height: 450px;
+    }
+   
+    .lightgreen {
+        
+        padding: 20px;
+    }
+    
+    .price {
+       
+        padding: 20px;
+    }
+    
+    body {
+        font-size: 16px; 
+    }
+
+    nav {
+        height: 120px; 
+    }
+
+    .logo img {
+        height: 180px; 
+        width: 200px;
+    }
+
+    .logo h1 {
+        font-size: 2rem; 
+    }
+
+   
+
+    #details {
+      margin-top:500px;
+      margin-left: -100px;
+    }
+
+   
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .information{
+        margin-left: 400px;
+
+    }
+    .line{
+        margin-left: 350px;
+    }
+    .imagesample{
+        margin-left: 400px;
+    }
+    .mining img{
+        margin-left: 400px;
+    }
+    .distribution img{
+        margin-left: 400px;
+    }
+    .howstart img{
+        margin-left: 400px;
+    }
+    .coin .line{
+       margin-left: -50px;
+    }
+}
